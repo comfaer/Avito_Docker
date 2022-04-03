@@ -1,0 +1,9 @@
+# Test your FastAPI endpoints
+
+GET http://localhost:8000/v1/current?city=Gomel
+Accept: application/json
+
+###
+
+GET http://localhost:8000/v1/forecast?city=Gomel&dt=1649019600
+Accept: application/json
